@@ -11,7 +11,7 @@ import Contacto from "./pages/Contacto";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/feline-style-react">
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Inicio />} />
