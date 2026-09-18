@@ -1,0 +1,36 @@
+#hero {
+    min-height: 90vh;
+
+    background-image: url("/assets/img/gato1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero-contenido {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+}
+
+.hero-contenido h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero-contenido p {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .hero-contenido h1 {
+        font-size: 2.5rem;
+    }
+}

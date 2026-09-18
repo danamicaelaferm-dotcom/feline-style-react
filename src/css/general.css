@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #2b2b2b;
+    background: #fff7fa;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+header {
+    background: #d85c8d;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+/* ==========================
+   FOOTER
+========================== */
+
+footer {
+    background: #d85c8d;
+    color: white;
+    text-align: center;
+    padding: 25px 10%;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+/* ==========================
+   WHATSAPP
+========================== */
+
+.whatsapp {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    width: 60px;
+    height: 60px;
+
+    background: #25D366;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 32px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+    z-index: 2000;
+
+    transition: transform 0.3s ease;
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+}
+/* ==========================
+   CARDS
+========================== */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 340px;
+}
+.productos-destacados {
+    text-align: center;
+}
+/* ==========================
+   LLAMADO A CONTACTO - INICIO
+========================== */
+
+.inicio-contacto {
+    text-align: center;
+    padding: 60px 10%;
+    background-color: #f7d6e4;
+    margin-top: 50px;
+}
+
+.inicio-contacto h2 {
+    color: #2b2b2b;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.inicio-contacto p {
+    max-width: 650px;
+    margin: 0 auto 25px;
+    color: #666666;
+    line-height: 1.6;
+}
+
+.inicio-contacto .boton {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #d85c8d;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.inicio-contacto .boton:hover {
+    background-color: #c94d7e;
+}
+/* ==========================
+   BOTÓN PRODUCTOS DESTACADOS
+========================== */
+
+.productos-destacados .boton {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 28px;
+    background-color: #d85c8d;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.productos-destacados .boton:hover {
+    background-color: #c94d7e;
+}
