@@ -58,7 +58,7 @@ function Gallery() {
           )}
 
           <img
-            src={`/assets/img/${producto.imagen}`}
+            src={`/feline-style-react/assets/img/${producto.imagen}`}
             alt={producto.nombre}
           />
 
