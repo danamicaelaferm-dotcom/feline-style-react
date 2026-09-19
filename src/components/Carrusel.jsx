@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 
 function Carrusel() {
   const imagenes = [
-    "/assets/img/gato4.jpg",
-    "/assets/img/gato5.jpg",
-    "/assets/img/gato8.jpg",
+    "/feline-style-react/assets/img/gato4.jpg",
+    "/feline-style-react/assets/img/gato5.jpg",
+    "/feline-style-react/assets/img/gato8.jpg",
   ];
 
   const [imagenActual, setImagenActual] = useState(0);
@@ -29,7 +29,6 @@ function Carrusel() {
 
   return (
     <div className="carrusel">
-
       <h2>Conocé nuestros estilos 🐾</h2>
 
       <div className="carrusel-imagen">
@@ -40,7 +39,6 @@ function Carrusel() {
       </div>
 
       <div className="carrusel-controles">
-
         <span
           className="flecha-carrusel"
           onClick={anterior}
@@ -58,11 +56,10 @@ function Carrusel() {
         >
           ❯
         </span>
-
       </div>
-
     </div>
   );
 }
 
 export default Carrusel;
+

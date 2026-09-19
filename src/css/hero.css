@@ -1,7 +1,7 @@
 #hero {
     min-height: 90vh;
 
-    background-image: url("/assets/img/gato1.jpg");
+    background-image: url("/feline-style-react/assets/img/gato1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

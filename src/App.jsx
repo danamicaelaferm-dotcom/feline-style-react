@@ -1,6 +1,6 @@
 import "./css/general.css";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Layout from "./components/Layout";
 
@@ -11,7 +11,7 @@ import Contacto from "./pages/Contacto";
 
 function App() {
   return (
-    <BrowserRouter basename="/feline-style-react">
+    <HashRouter>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Inicio />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/contacto" element={<Contacto />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
