@@ -15,6 +15,7 @@ function Layout() {
 
       <Footer />
       <WhatsApp />
+      <img src="/feline-style-react/assets/img/gato-bailando.gif" alt="Gatito bailando" className="gato-bailando" />
     </>
   );
 }

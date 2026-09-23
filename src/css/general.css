@@ -176,3 +176,10 @@ footer p {
 .productos-destacados .boton:hover {
     background-color: #c94d7e;
 }
+.gato-bailando {
+position: fixed;
+bottom: 20px;
+left: 20px;
+width: 100px;
+z-index: 1000;
+}
