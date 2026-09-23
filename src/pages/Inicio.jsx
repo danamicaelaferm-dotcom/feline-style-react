@@ -1,3 +1,5 @@
+
+import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import Card from "../components/Card";
 
@@ -11,21 +13,21 @@ function Inicio() {
 
         <div className="cards">
           <Card
-            imagen="/assets/img/gato2buso.jpg"
+            imagen="/feline-style-react/assets/img/gato2buso.jpg"
             titulo="Buzo cómodo"
             descripcion="Buzos suaves y cómodos para que tu gato esté abrigado y con estilo."
           />
 
           <Card
-            imagen="/assets/img/gato3elegante.jpg"
+            imagen="/feline-style-react/assets/img/gato3elegante.jpg"
             titulo="Ropa elegante"
             descripcion="Diseños especiales para que tu gato luzca elegante en cualquier ocasión."
           />
         </div>
 
-        <a href="/productos" className="boton">
+        <Link to="/productos" className="boton">
           Ver todos los productos
-        </a>
+        </Link>
       </section>
 
       <section className="inicio-contacto">
@@ -36,12 +38,13 @@ function Inicio() {
           productos, talles y envíos.
         </p>
 
-        <a href="/contacto" className="boton">
+        <Link to="/contacto" className="boton">
           Contactanos
-        </a>
+        </Link>
       </section>
     </>
   );
 }
 
 export default Inicio;
+
